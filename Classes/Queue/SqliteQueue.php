@@ -12,8 +12,8 @@ namespace Flownative\Jobqueue\Sqlite\Queue;
  */
 
 use TYPO3\Flow\Annotations as Flow;
-use TYPO3\Jobqueue\Common\Queue\Message;
-use TYPO3\Jobqueue\Common\Queue\QueueInterface;
+use Flowpack\JobQueue\Common\Queue\Message;
+use Flowpack\JobQueue\Common\Queue\QueueInterface;
 
 /**
  * A queue implementation using Sqlite as the queue backend
